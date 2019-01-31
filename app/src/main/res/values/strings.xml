@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BackgroundWorkRxJavaDemo</string>
+    <string name="btn_text">Start the Long Running Operation</string>
+</resources>
