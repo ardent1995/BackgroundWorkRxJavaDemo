@@ -137,4 +137,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(_adapter);
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        _disposables.clear();
+    }
 }
